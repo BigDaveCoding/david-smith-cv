@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Share+Tech+Mono&display=swap');
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --font-shareTech: "Share Tech Mono", sans-serif;
+
+    --color-primaryTextColor: #ededed;
+}
