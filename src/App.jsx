@@ -1,10 +1,16 @@
 import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Homepage from './pages/Homepage'
 
 function App() {
 
   return (
     <>
-      <p className="text-5xl text-green-600">Testing</p>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Homepage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
